@@ -65,10 +65,10 @@ void estimate_position(){
     matr_cof_A_t[1][1] = matr_cof_A[1][1];
 
     // matrice inversa
-    matr_A_inv[0][0] = (1/det) * matr_cof_A[0][0];
-    matr_A_inv[0][1] = (1/det) * matr_cof_A[0][1];
-    matr_A_inv[1][0] = (1/det) * matr_cof_A[1][0];
-    matr_A_inv[1][1] = (1/det) * matr_cof_A[1][1];
+    matr_A_inv[0][0] = (1/det) * matr_cof_A_t[0][0];
+    matr_A_inv[0][1] = (1/det) * matr_cof_A_t[0][1];
+    matr_A_inv[1][0] = (1/det) * matr_cof_A_t[1][0];
+    matr_A_inv[1][1] = (1/det) * matr_cof_A_t[1][1];
 
 
     x = (matr_A_inv[0][0] * matr_B[0]) + (matr_A_inv[0][1] * matr_B[1])
