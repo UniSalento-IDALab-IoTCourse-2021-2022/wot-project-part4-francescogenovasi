@@ -1,4 +1,4 @@
-#include "triangulation.h"
+#include "trilateration.h"
 #include <math.h>
 
  void update_distance(uint8_t *uuid, float d){

@@ -3,7 +3,7 @@
 #include "ble.h"
 #include "wifi.h"
 #include "ota.h"
-#include "triangulation.h"
+#include "trilateration.h"
 #include "mqtt.h"
 #define MAIN_TAG "MAIN"
 
