@@ -21,4 +21,4 @@ static device_node_t fixed_nodes[3] = {{.x=1.40f,.y=1.4f,.uuid={0xdd, 0xdd, 0x08
 void update_distance(uint8_t *uuid,float d);
 void estimate_position();
 
-#endif //MESH_NETWORK_PROVISIONER_TRIANGULATION_H
+#endif //MESH_NETWORK_PROVISIONER_TRILATERATION_H
