@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/build/CMakeFiles/bootloader
+/Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/build/CMakeFiles/bootloader.rule
+/Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/build/CMakeFiles/bootloader-complete.rule
+/Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

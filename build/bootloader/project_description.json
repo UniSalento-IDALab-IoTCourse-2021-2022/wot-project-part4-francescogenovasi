@@ -1,0 +1,22 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/Users/francescogenovasi/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/build/bootloader",
+    "config_file":        "/Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v5.0-dev-4257-g508661b03e",
+    "target":             "esp32",
+    "rev":                "0",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/Users/francescogenovasi/esp-idf/components/efuse/Kconfig;/Users/francescogenovasi/esp-idf/components/esp_common/Kconfig;/Users/francescogenovasi/esp-idf/components/esp_hw_support/Kconfig;/Users/francescogenovasi/esp-idf/components/esp_system/Kconfig;/Users/francescogenovasi/esp-idf/components/freertos/Kconfig;/Users/francescogenovasi/esp-idf/components/hal/Kconfig;/Users/francescogenovasi/esp-idf/components/log/Kconfig;/Users/francescogenovasi/esp-idf/components/newlib/Kconfig;/Users/francescogenovasi/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/Users/francescogenovasi/esp-idf/components/bootloader/Kconfig.projbuild;/Users/francescogenovasi/esp-idf/components/esp_rom/Kconfig.projbuild;/Users/francescogenovasi/esp-idf/components/esptool_py/Kconfig.projbuild;/Users/francescogenovasi/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/Users/francescogenovasi/esp-idf/components/bootloader", "/Users/francescogenovasi/esp-idf/components/bootloader_support", "/Users/francescogenovasi/esp-idf/components/efuse", "/Users/francescogenovasi/esp-idf/components/esp_common", "/Users/francescogenovasi/esp-idf/components/esp_hw_support", "/Users/francescogenovasi/esp-idf/components/esp_rom", "/Users/francescogenovasi/esp-idf/components/esp_system", "/Users/francescogenovasi/esp-idf/components/esptool_py", "/Users/francescogenovasi/esp-idf/components/freertos", "/Users/francescogenovasi/esp-idf/components/hal", "/Users/francescogenovasi/esp-idf/components/log", "/Users/francescogenovasi/esp-idf/components/bootloader/subproject/main", "/Users/francescogenovasi/esp-idf/components/bootloader/subproject/components/micro-ecc", "/Users/francescogenovasi/esp-idf/components/newlib", "/Users/francescogenovasi/esp-idf/components/partition_table", "/Users/francescogenovasi/esp-idf/components/soc", "/Users/francescogenovasi/esp-idf/components/spi_flash", "/Users/francescogenovasi/esp-idf/components/xtensa", "" ],
+    "debug_prefix_map_gdbinit": ""
+}

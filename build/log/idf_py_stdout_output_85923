@@ -1,0 +1,55 @@
+-- Found Git: /opt/homebrew/bin/git (found version "2.33.1") 
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /Users/francescogenovasi/.espressif/tools/xtensa-esp32-elf/esp-2022r1-RC1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Users/francescogenovasi/.espressif/tools/xtensa-esp32-elf/esp-2022r1-RC1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/francescogenovasi/.espressif/tools/xtensa-esp32-elf/esp-2022r1-RC1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/sdkconfig
+/Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/sdkconfig:651 CONFIG_ESP32_DEFAULT_CPU_FREQ_160 was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_160
+/Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/sdkconfig:653 CONFIG_ESP32_DEFAULT_CPU_FREQ_MHZ was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ
+/Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/sdkconfig:658 CONFIG_ESP32_ULP_COPROC_RESERVE_MEM was replaced with CONFIG_ULP_COPROC_RESERVE_MEM
+/Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/sdkconfig:659 CONFIG_ESP32_DEBUG_OCDAWARE was replaced with CONFIG_ESP_DEBUG_OCDAWARE
+/Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/sdkconfig:660 CONFIG_ESP32_BROWNOUT_DET was replaced with CONFIG_ESP_BROWNOUT_DET
+/Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/sdkconfig:661 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_0 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_0
+/Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/sdkconfig:669 CONFIG_ESP32_BROWNOUT_DET_LVL was replaced with CONFIG_ESP_BROWNOUT_DET_LVL
+/Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/sdkconfig:670 CONFIG_ESP32_TIME_SYSCALL_USE_RTC_FRC1 was replaced with CONFIG_NEWLIB_TIME_SYSCALL_USE_RTC_HRT
+/Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/sdkconfig:674 CONFIG_ESP32_RTC_CLK_SRC_INT_RC was replaced with CONFIG_RTC_CLK_SRC_INT_RC
+/Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/sdkconfig:678 CONFIG_ESP32_RTC_CLK_CAL_CYCLES was replaced with CONFIG_RTC_CLK_CAL_CYCLES
+/Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/sdkconfig:679 CONFIG_ESP32_DEEP_SLEEP_WAKEUP_DELAY was replaced with CONFIG_ESP_SLEEP_DEEP_SLEEP_WAKEUP_DELAY
+/Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/sdkconfig:748 CONFIG_OTA_ALLOW_HTTP was replaced with CONFIG_ESP_HTTPS_OTA_ALLOW_HTTP
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: /Users/francescogenovasi/.espressif/python_env/idf5.0_py3.10_env/bin/python (found version "3.10.4") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "mesh_network_provisioner" version: 79465d5
+-- Adding linker script /Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /Users/francescogenovasi/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /Users/francescogenovasi/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /Users/francescogenovasi/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /Users/francescogenovasi/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /Users/francescogenovasi/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /Users/francescogenovasi/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /Users/francescogenovasi/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /Users/francescogenovasi/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc_cal esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_netif esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_serial_slave_link esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport tinyusb ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /Users/francescogenovasi/esp-idf/components/app_trace /Users/francescogenovasi/esp-idf/components/app_update /Users/francescogenovasi/esp-idf/components/bootloader /Users/francescogenovasi/esp-idf/components/bootloader_support /Users/francescogenovasi/esp-idf/components/bt /Users/francescogenovasi/esp-idf/components/cmock /Users/francescogenovasi/esp-idf/components/console /Users/francescogenovasi/esp-idf/components/cxx /Users/francescogenovasi/esp-idf/components/driver /Users/francescogenovasi/esp-idf/components/efuse /Users/francescogenovasi/esp-idf/components/esp-tls /Users/francescogenovasi/esp-idf/components/esp_adc_cal /Users/francescogenovasi/esp-idf/components/esp_common /Users/francescogenovasi/esp-idf/components/esp_eth /Users/francescogenovasi/esp-idf/components/esp_event /Users/francescogenovasi/esp-idf/components/esp_gdbstub /Users/francescogenovasi/esp-idf/components/esp_hid /Users/francescogenovasi/esp-idf/components/esp_http_client /Users/francescogenovasi/esp-idf/components/esp_http_server /Users/francescogenovasi/esp-idf/components/esp_https_ota /Users/francescogenovasi/esp-idf/components/esp_https_server /Users/francescogenovasi/esp-idf/components/esp_hw_support /Users/francescogenovasi/esp-idf/components/esp_lcd /Users/francescogenovasi/esp-idf/components/esp_local_ctrl /Users/francescogenovasi/esp-idf/components/esp_netif /Users/francescogenovasi/esp-idf/components/esp_phy /Users/francescogenovasi/esp-idf/components/esp_pm /Users/francescogenovasi/esp-idf/components/esp_psram /Users/francescogenovasi/esp-idf/components/esp_ringbuf /Users/francescogenovasi/esp-idf/components/esp_rom /Users/francescogenovasi/esp-idf/components/esp_serial_slave_link /Users/francescogenovasi/esp-idf/components/esp_system /Users/francescogenovasi/esp-idf/components/esp_timer /Users/francescogenovasi/esp-idf/components/esp_wifi /Users/francescogenovasi/esp-idf/components/espcoredump /Users/francescogenovasi/esp-idf/components/esptool_py /Users/francescogenovasi/esp-idf/components/fatfs /Users/francescogenovasi/esp-idf/components/freertos /Users/francescogenovasi/esp-idf/components/hal /Users/francescogenovasi/esp-idf/components/heap /Users/francescogenovasi/esp-idf/components/http_parser /Users/francescogenovasi/esp-idf/components/idf_test /Users/francescogenovasi/esp-idf/components/ieee802154 /Users/francescogenovasi/esp-idf/components/json /Users/francescogenovasi/esp-idf/components/log /Users/francescogenovasi/esp-idf/components/lwip /Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/main /Users/francescogenovasi/esp-idf/components/mbedtls /Users/francescogenovasi/esp-idf/components/mqtt /Users/francescogenovasi/esp-idf/components/newlib /Users/francescogenovasi/esp-idf/components/nvs_flash /Users/francescogenovasi/esp-idf/components/openthread /Users/francescogenovasi/esp-idf/components/partition_table /Users/francescogenovasi/esp-idf/components/perfmon /Users/francescogenovasi/esp-idf/components/protobuf-c /Users/francescogenovasi/esp-idf/components/protocomm /Users/francescogenovasi/esp-idf/components/pthread /Users/francescogenovasi/esp-idf/components/sdmmc /Users/francescogenovasi/esp-idf/components/soc /Users/francescogenovasi/esp-idf/components/spi_flash /Users/francescogenovasi/esp-idf/components/spiffs /Users/francescogenovasi/esp-idf/components/tcp_transport /Users/francescogenovasi/esp-idf/components/tinyusb /Users/francescogenovasi/esp-idf/components/ulp /Users/francescogenovasi/esp-idf/components/unity /Users/francescogenovasi/esp-idf/components/usb /Users/francescogenovasi/esp-idf/components/vfs /Users/francescogenovasi/esp-idf/components/wear_levelling /Users/francescogenovasi/esp-idf/components/wifi_provisioning /Users/francescogenovasi/esp-idf/components/wpa_supplicant /Users/francescogenovasi/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/build

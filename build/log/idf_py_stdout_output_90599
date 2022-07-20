@@ -1,0 +1,35 @@
+[1/12] Linking C static library esp-idf/spiffs/libspiffs.a
+[2/12] Linking C static library esp-idf/wifi_provisioning/libwifi_provisioning.a
+[3/12] Performing build step for 'bootloader'
+[1/1] cd /Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/build/bootloader/esp-idf/esptool_py && /Users/francescogenovasi/.espressif/python_env/idf5.0_py3.10_env/bin/python /Users/francescogenovasi/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/build/bootloader/bootloader.bin
+Bootloader binary size 0x6680 bytes. 0x980 bytes (8%) free.
+[4/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/lib/trilateration.c.obj
+In file included from /Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/main/include/trilateration.h:5,
+                 from /Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/main/lib/trilateration.c:1:
+/Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/main/include/mqtt.h:13:13: warning: 'mqtt_event_handler' declared 'static' but never defined [-Wunused-function]
+   13 | static void mqtt_event_handler(void *handler_args, esp_event_base_t base, int32_t event_id, void *event_data);
+      |             ^~~~~~~~~~~~~~~~~~
+/Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/main/include/mqtt.h:17:13: warning: 'log_error_if_nonzero' defined but not used [-Wunused-function]
+   17 | static void log_error_if_nonzero(const char *message, int error_code)
+      |             ^~~~~~~~~~~~~~~~~~~~
+/Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/main/lib/trilateration.c: In function 'estimate_position':
+/Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/main/lib/trilateration.c:34:61: warning: array subscript 3 is above array bounds of 'device_node_t[3]' [-Warray-bounds]
+   34 |     c[2] = pow(fixed_nodes[1].distance, 2) - pow(fixed_nodes[3].distance, 2) + pow(fixed_nodes[2].x, 2) - pow(fixed_nodes[1].x, 2) + pow(fixed_nodes[2].y, 2) - pow(fixed_nodes[1].y, 2);
+      |                                                  ~~~~~~~~~~~^~~
+In file included from /Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/main/lib/trilateration.c:1:
+/Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/main/include/trilateration.h:17:22: note: while referencing 'fixed_nodes'
+   17 | static device_node_t fixed_nodes[3] = {{.x=1.40f,.y=1.4f,.uuid={0xdd, 0xdd, 0x08, 0x3a, 0xf2, 0xac, 0xf3, 0x4e, 0x00,0x00,0x00,0x00, 0x00,0x0,0x00,0x00}, .distance=0},
+      |                      ^~~~~~~~~~~
+[5/10] Linking C static library esp-idf/main/libmain.a
+[6/10] Generating ld/sections.ld
+[7/10] Building C object CMakeFiles/mesh_network_provisioner.elf.dir/project_elf_src_esp32.c.obj
+[8/10] Linking CXX executable mesh_network_provisioner.elf
+[9/10] Generating binary image from built executable
+esptool.py v4.1
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+Generated /Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/build/mesh_network_provisioner.bin
+[10/10] cd /Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/build/esp-idf/esptool_py && /Users/francescogenovasi/.espressif/python_env/idf5.0_py3.10_env/bin/python /Users/francescogenovasi/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/build/partition_table/partition-table.bin /Users/francescogenovasi/CLionProjects/wot-project-part4-mesh_network_provisioner-dinoi-genovasi/build/mesh_network_provisioner.bin
+mesh_network_provisioner.bin binary size 0x1394d0 bytes. Smallest app partition is 0x140000 bytes. 0x6b30 bytes (2%) free.
+Warning: The smallest app partition is nearly full (2% free space left)!
