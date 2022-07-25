@@ -24,7 +24,7 @@ void app_main(void)
     ble_mesh_get_dev_uuid(dev_uuid);
     ble_mesh_init();
 
-    xTaskCreate(&ota_task, "ota_update_task", 8192, NULL, 5, NULL);
+    // xTaskCreate(&ota_task, "ota_update_task", 8192, NULL, 5, NULL);
 
     while(1){
        // ble_mesh_custom_sensor_client_model_message_get();

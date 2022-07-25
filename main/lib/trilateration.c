@@ -12,8 +12,6 @@
         }
 }
 
-// TODO modificare calcolo stima x e y del beacon
-
 void estimate_position(){
     float a[3], b[3], c[3];
     float x;
@@ -49,7 +47,7 @@ void estimate_position(){
     float det = (matr_A[0][0] * matr_A[1][1]) - (matr_A[0][1] * matr_A[1][0]);
 
     if (det == 0){
-        // TODO errore, matrice non invertibile!
+        // TODO errore, caso matrice non invertibile!
     }
 
     // matrice cofattori
