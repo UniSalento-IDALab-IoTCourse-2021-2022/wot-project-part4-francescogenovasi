@@ -282,6 +282,7 @@ static void custom_ibeacon_client_callback(esp_ble_mesh_model_cb_event_t event, 
                 case ESP_BLE_MESH_IBEACON_MODEL_OP_STATUS:;
                 model_ibeacon_data_t ibeacon_response = *(model_ibeacon_data_t *)param->client_recv_publish_msg.msg;
                 uint8_t *uuid = get_uuid_from_addr(param->client_recv_publish_msg.ctx->addr);
+
                 // TODO dati ricevuti dal server
                 esp_log_buffer_hex("AAAUUID: ", uuid, ESP_UUID_LEN_128);
                 ESP_LOGI("AAA", "MESH MESSAGE SENT1 distance: %f", ibeacon_response.distance);

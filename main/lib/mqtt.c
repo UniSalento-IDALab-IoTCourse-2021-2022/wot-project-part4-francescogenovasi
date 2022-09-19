@@ -52,7 +52,8 @@ void mqtt_publish(float x, float y, float d0, float d1, float d2){
     cJSON_AddNumberToObject(data_object, "r1", d1);
     cJSON_AddNumberToObject(data_object, "r2", d2);
     char *str = cJSON_Print(data_object);
-    esp_mqtt_client_publish(client,"BIMData_Architecture/Computer_Engineering_Cloud/IOT_Project/RTLS_MESH_NETWORK_IFC/Ecotekne/LaStecca/PrimoPiano/Idalab-002/Desk/uuid/0j9EEDh8jEev_8A15__li$",str,strlen(str),1,0);
+    esp_mqtt_client_publish(client,"BIMData_Architecture/Computer_Engineering_Cloud/IOT_Project/RTLS_MESH_NETWORK_IFC/Ecotekne/LaStecca/PrimoPiano/Idalab-002/Desk",str,strlen(str),1,0);
+    ESP_LOGI("MQTT PUBLISH: ", "x: %f, y: %f, r0: %f, r1: %f, r2: %f \n\n", x, y, d0, d1, d2);
     cJSON_free(data_object);
     cJSON_free(str);
 }

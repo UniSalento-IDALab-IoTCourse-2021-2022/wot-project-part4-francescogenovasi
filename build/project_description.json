@@ -6,7 +6,7 @@
     "config_defaults":    "",
     "app_elf":            "mesh_network_provisioner.elf",
     "app_bin":            "mesh_network_provisioner.bin",
-    "git_revision":       "v5.0-dev-4257-g508661b03e",
+    "git_revision":       "v5.0-dev-4257-g508661b03e-dirty",
     "target":             "esp32",
     "rev":                "0",
     "phy_data_partition": "",
