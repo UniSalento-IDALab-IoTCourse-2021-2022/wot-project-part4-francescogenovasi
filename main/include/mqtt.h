@@ -6,7 +6,8 @@
 #include <cJSON.h>
 
 // #define MQTT_BROKER_URI "ws://fridaycloud.ddns.net:8001/mqtt"
-#define MQTT_BROKER_URI "mqtt://mqtt.eclipseprojects.io:1883"
+// #define MQTT_BROKER_URI "mqtt://mqtt.eclipseprojects.io:1883"
+#define MQTT_BROKER_URI "mqtt://broker.hivemq.com:1883"
 static const esp_mqtt_client_config_t mqtt_cfg = {.uri = MQTT_BROKER_URI};
 
 void mqtt_init();

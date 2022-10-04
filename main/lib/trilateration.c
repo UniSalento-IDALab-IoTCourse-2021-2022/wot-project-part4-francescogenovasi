@@ -1,6 +1,10 @@
 #include "trilateration.h"
 #include <math.h>
 
+#include "time.h"
+
+int sec=0, sec_old=0, diff_sec=0;
+
  void update_distance(uint8_t *uuid, float d){
         for(int i = 0; i<3; i++){
             if(memcmp(uuid,fixed_nodes[i].uuid,16) == 0) {
@@ -8,6 +12,7 @@
                 //ESP_LOG_BUFFER_HEX("TRILA",fixed_nodes[i].uuid,16);
                 //ESP_LOG_BUFFER_HEX("TRILA",uuid,16);
                 ESP_LOGI("TRILA","Dispositivo: %d Distance: %f",i,d);
+                // ESP_LOGI("TRILATERAZIONE","2222222222222222222222222222222222222222222222222222222");
             }
         }
 }
@@ -73,5 +78,10 @@ void estimate_position(){
     y = (matr_A_inv[1][0] * matr_B[0]) + (matr_A_inv[1][1] * matr_B[1]);
 
     ESP_LOGI("TRILAT", "Estimated Beacon position: X: %f, Y: %f", x, y);
+    sec = time(0);
+    diff_sec=sec-sec_old;
+    ESP_LOGI("time","sec: %d sec_old: %d diff_sec: %d", sec, sec_old, diff_sec);
+    sec_old=sec;
+    // ESP_LOGI("TRILATERAZIONE","2222222222222222222222222222222222222222222222222222222");
     mqtt_publish(x, y, fixed_nodes[0].distance, fixed_nodes[1].distance, fixed_nodes[2].distance);
 }
