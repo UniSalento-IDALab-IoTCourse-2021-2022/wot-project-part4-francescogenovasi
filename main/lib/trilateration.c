@@ -52,7 +52,7 @@ void estimate_position(){
     float det = (matr_A[0][0] * matr_A[1][1]) - (matr_A[0][1] * matr_A[1][0]);
 
     if (det == 0){
-        // TODO errore, caso matrice non invertibile!
+        ESP_LOGI("ERROR", "NOT INVERTIBLE MATRIX!");
     }
 
     // matrice cofattori

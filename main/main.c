@@ -30,10 +30,6 @@ void app_main(void)
        // ble_mesh_custom_sensor_client_model_message_get();
         ble_mesh_ibeacon_model_client_message_get();
         vTaskDelay(pdMS_TO_TICKS(1000));
-        // TODO
-        /*
-         * estrarre con un for i 3 nodes con fixed_nodes[].distance minori e poi mandarli ad estimate position
-         */
         estimate_position();
         //vTaskDelay(pdMS_TO_TICKS(10000));
     }
